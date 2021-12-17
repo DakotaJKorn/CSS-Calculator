@@ -1,0 +1,252 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    min-width: 400px;
+    min-height: 600px;
+    margin:0;
+    height: 100vh;
+}
+
+#calculator{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    background-color: #152535;
+    border-radius: 4px;
+}
+
+#topSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 360px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#solarPanels{
+    height:30px;
+    width:120px;
+    background-color: #646b71;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+#topText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width:320px;
+    margin-top: 10px;
+}
+
+#logo1{
+    height: 25px;
+    color: #637081;
+}
+
+#topText1{
+    font-size: large;
+    color: #86989a;
+    font-weight: bold;
+}
+
+#screen{
+    background-color: #a4b9a6;
+    width: 320px;
+    height:90px;
+    border-radius: 4px;
+    margin-top:1px;
+}
+
+
+#bottomSection{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    width: 360px;
+    margin-top: 5px;
+}
+
+#leftThreeColumns{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    width: 220px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+#column1{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#columns2-3{
+    margin-top: 20px;
+}
+.smallText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#b7c4e4;
+    height:15px;
+    width: 45px;
+}
+.minimizeText{
+    font-size: smaller;
+}
+.button1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: small;
+    height:22px;
+    width: 50px;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    height:32px;
+    width: 50px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    margin-bottom: 14px;
+}
+
+.numberButton{
+    color: black;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    height:33px;
+    width: 50px;
+    border-radius: 8px;
+    flex-shrink: 0;
+
+}
+.color1:hover{
+    background-color: #404855;
+    cursor: pointer;
+}
+.color2:hover{
+    background-color: #dbe5f4;
+    cursor: pointer;
+}
+.color3:hover{
+    background-color: #515874;
+    cursor:pointer;
+}
+.color4:hover{
+    background-color: #cdcdc5; 
+    cursor: pointer;
+ }
+
+ .arrowButton:hover{
+    background-color: #515874;
+    cursor: pointer;
+}
+#arrows{
+    height: 80px;
+    width:140px;
+}
+
+#rightTwoColumns{
+    margin-left: -5px;
+}
+#columns3-4{
+    display: flex;
+    flex-direction: row;
+    height: 270px;
+    width:140px;
+    margin-top:-6px;
+}
+
+
+.color1{
+    background-color: #10131a;
+}
+
+.color2{
+    background-color: #b7c4e4;
+}
+
+.color3{
+    background-color: #5d6a96;
+}
+
+.color4{
+    background-color: #feffff;
+}
+
+.textColorWhite{
+    color:white;
+}
+
+.moreMargin1{
+    margin-top: 15px;
+}
+
+.moreMargin2{
+    margin-top:5px;
+}
+
+.arrowButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: small;
+    height:22px;
+    width: 50px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    background-color: #5d6a96;
+}
+
+#arrowRow1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: row;
+}
+#arrowRow2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: row;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+#arrowRow3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: row;
+}
+
+#space{
+    width: 18px;
+}
+
+.smallText{
+    font-size:xx-small;
+}
